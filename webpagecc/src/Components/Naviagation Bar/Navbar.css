@@ -26,3 +26,12 @@
 .navbar-button:hover{
  background-color:blueviolet;
 }
+
+.navbar .active{
+  padding-bottom :2px;
+  border-bottom: 2px solid thistle;
+}
+
+.navbar li{
+  cursor: pointer;
+}

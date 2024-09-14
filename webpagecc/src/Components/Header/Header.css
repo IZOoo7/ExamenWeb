@@ -1,0 +1,18 @@
+.header{
+  height: 34w;
+  margin:30px auto;
+  background : url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.L8HQKV8uqRJ3uW08wgdpjgHaEw%26pid%3DApi&f=1&ipt=979ed47b501d0e7b4e44dc62b326684c7b3af0dc4123ce18e94c82f65fac258a&ipo=images') no-repeat;
+  background-size: contain;
+  position: relative;
+}
+
+.header-content{
+  position:absolute;
+  display:flex;
+  flex-direction:column;
+  align-items:start;
+  gap: 1.5w;
+  max-width: 50%;
+  bottom: 10%;
+  left: 6vw;
+}
