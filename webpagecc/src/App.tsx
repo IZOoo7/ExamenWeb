@@ -1,13 +1,13 @@
 import React from 'react';
 import './App.css';
-import Navbar from './Components/Naviagation Bar/Navbar'
+import Navbar from './Components/Navbar'
 import { Route, Routes } from 'react-router-dom';
 import HomePage from './Components/HomePage';
 import Models from './Components/ModelsManagement';
-import { Event } from './Components/Event';
-import { PhotoSales } from './Components/PhotoSales';
-import { Membership } from './Components/Membership';
+import PhotoSale from './Components/PhotoSales';
+import MembershipPage from './Components/Membership';
 import { Products } from './Components/Products';
+import EventList from './Components/EventList';
 
 function App() {
   return (
@@ -17,9 +17,9 @@ function App() {
         <Route path='/' element={<HomePage/>}/>
         <Route path='/Models' element={<Models/>}/>
         <Route path='/Products' element={<Products/>}/>
-        <Route path='/Events' element={<Event/>}/>
-        <Route path='/PhotoSale' element={<PhotoSales/>}/>
-        <Route path='/Membership' element={<Membership/>}/>
+        <Route path='/Events' element={<EventList/>}/>
+        <Route path='/PhotoSale' element={<PhotoSale/>}/>
+        <Route path='/Membership' element={<MembershipPage/>}/>
       </Routes>
     </div>
   );

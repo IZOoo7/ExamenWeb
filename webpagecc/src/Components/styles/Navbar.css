@@ -8,13 +8,13 @@
 
 .navbar-right{
   display:flex;
-  align-items: center;
+  align-items:center;
   gap:40px;
 }
 
 .navbar-button{
   background:transparent;
-  font-size: 16;
+  font-size: 16px;
   color:fuchsia;
   border: 1px solid  violet;
   padding: 10px 30px;
@@ -29,7 +29,7 @@
 
 .navbar .active{
   padding-bottom :2px;
-  border-bottom: 2px solid thistle;
+  border-bottom: 2px solid rgb(251, 2, 239);
 }
 
 .navbar li{
